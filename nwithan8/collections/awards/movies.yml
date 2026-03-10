@@ -94,7 +94,17 @@ collections:
   # This current year's Best Picture Oscar nominees
   # Only visible on home screen during Oscar season
   "🎬 This Year's Best Picture Nominees":
-    # TODO: NEED TO BUILD MANUALLY
+    tmdb_movie:
+      - 49046
+      - 76600
+      - 674324
+      - 614934
+      - 545611
+      - 804095
+      - 817758
+      - 361743
+      - 497828
+      - 777245
     template: { name: Award,
                 level: "++++++" }
     summary: "Who will take home the trophy?"
