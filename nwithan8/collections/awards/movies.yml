@@ -271,7 +271,7 @@ collections:
                 level: "++++" }
     trakt_list:
       # TODO: NEED TO REPLACE MANUALLY
-      - https://trakt.tv/users/jcbwoldseth/lists/oscar-race-2023
+      - https://trakt.tv/users/jcbwoldseth/lists/oscar-race-2024
     collection_order: random
     schedule:
       - yearly(02/01)
