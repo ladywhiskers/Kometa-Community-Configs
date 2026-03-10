@@ -154,6 +154,7 @@ collections:
       limit: 50
       all:
         title.is: "The Middle"
+        title.not: "Malcolm mittendrin"
     sort_title: " !AC<<title>>"
 
   # Malcolm in the Middle (Custom due to a bug with "The Middle")
@@ -166,6 +167,7 @@ collections:
       limit: 50
       all:
         title.is: "Malcolm mittendrin"
+        title.not: "The Middle"
     sort_title: " !AC<<title>>"
 
   # House (Custom due to the german title "Dr. House")
