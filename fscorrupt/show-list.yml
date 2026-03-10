@@ -142,7 +142,9 @@ collections:
       limit: 100
       all:
         title.is: "Spongebob Schwammkopf"
-    sort_title: " !AC<<title>>"
+    summary: "The top 100 episodes of Spongebob Schwammkopf, sorted by IMDb rating."
+    sort_title: " !ACSpongebob Schwammkopf"
+    collection_mode: hide
 
   # The Middle (Custom due to a bug with "Malcolm in the Middle")
   The Middle Top 50:
@@ -154,7 +156,9 @@ collections:
       limit: 50
       all:
         title.is: "The Middle"
-    sort_title: " !AC<<title>>"
+    summary: "The top 50 episodes of The Middle, sorted by IMDb rating."
+    sort_title: " !ACThe Middle"
+    collection_mode: hide
 
   # Malcolm in the Middle (Custom due to a bug with "The Middle")
   Malcolm mittendrin Top 50:
@@ -166,7 +170,9 @@ collections:
       limit: 50
       all:
         title.is: "Malcolm mittendrin"
-    sort_title: " !AC<<title>>"
+    summary: "The top 50 episodes of Malcolm mittendrin, sorted by IMDb rating."
+    sort_title: " !ACMalcolm mittendrin"
+    collection_mode: hide
 
   # House (Custom due to the german title "Dr. House")
   Dr. House Top 50:
@@ -178,7 +184,9 @@ collections:
       limit: 50
       all:
         title.is: "Dr. House"
-    sort_title: " !AC<<title>>"
+    summary: "The top 50 episodes of Dr. House, sorted by IMDb rating."
+    sort_title: " !ACDr. House"
+    collection_mode: hide
 
   # Top XX Collections via template
   Simpsons Top 100:
